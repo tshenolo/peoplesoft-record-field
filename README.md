@@ -16,15 +16,10 @@ PeopleSoft utility to get record fields.
 3. Click Select, choose MXM_REC_FLD
 4. Click Copy
 
-![Copy Project](img/copy.png)
-
 ### Step 3. Register the component
 1. Open the component
 2. Click Tools, Register Component...
 3. Use component details defined in the Technical Documentation to register the component.
-
-![Register](img/register.png)
-
 
 ## Technical Documentation
 ### App Designer Project: MXM_REC_FLD
