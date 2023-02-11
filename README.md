@@ -16,10 +16,34 @@ PeopleSoft utility to get record fields.
 3. Click Select, choose MXM_REC_FLD
 4. Click Copy
 
-### Step 3. Register the component
+### Step 3. Build Project 
+Note: Perform this step if the project contains SQL Tables otherwise skip it
+1.	Click Build, Project...
+2.	Check the following options:  
+    a.	Create Table  
+    b.	Create Indexes  
+    c.	Create Views  
+    d.	Execute and build script.  
+3.	Click Build
+
+### Step 4. Register the component
 1. Open the component
 2. Click Tools, Register Component...
-3. Use component details defined in the Technical Documentation to register the component.
+3. Check off the following:
+   - Add this component to a menu
+   - Add this component to a portal registry
+   - Add this component to a permission list
+4. Click Next
+5. Select Menu Name: MXM_CUSTOM_MENU and Bar Name: USE
+6. Click Next
+7. Select Folder Name: MXM_CUSTOM
+8. Change Content Reference Label and Long Description fields to "Record Fields"
+9. Check off Always use default local node
+10. Click Next
+11. Select Permission List Name: PTPT1200
+12. Click Next
+13. Check off Registry entry under Add to project
+14. Click Finish
 
 ## Technical Documentation
 ### App Designer Project: MXM_REC_FLD
